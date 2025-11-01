@@ -1,0 +1,59 @@
+=== Uber Ride Prediction — Data Analysis Summary ===
+
+Shape after cleaning: (150000, 26)
+
+=== Descriptive Statistics ===
+                             Date  ...  Payment Method_Uber Wallet
+count                      150000  ...               150000.000000
+mean   2024-06-30 16:42:40.320000  ...                    0.081840
+min           2024-01-01 00:00:00  ...                    0.000000
+25%           2024-03-31 00:00:00  ...                    0.000000
+50%           2024-07-01 00:00:00  ...                    0.000000
+75%           2024-09-30 00:00:00  ...                    0.000000
+max           2024-12-30 00:00:00  ...                    1.000000
+std                           NaN  ...                    0.274122
+
+[8 rows x 21 columns]
+
+=== Correlation Matrix ===
+                                    Avg VTAT  ...  Payment Method_Uber Wallet
+Avg VTAT                            1.000000  ...                   -0.008343
+Avg CTAT                            0.039988  ...                    0.004487
+Booking Value                       0.019910  ...                   -0.066319
+Ride Distance                       0.054078  ...                    0.001345
+Driver Ratings                      0.005388  ...                    0.013667
+Customer Rating                     0.004748  ...                    0.042334
+Booking Status_Cancelled by Driver -0.119229  ...                   -0.139879
+Booking Status_Completed            0.036653  ...                    0.180121
+Booking Status_Incomplete          -0.169717  ...                    0.034146
+Booking Status_No Driver Found      0.003601  ...                   -0.081909
+Vehicle Type_Bike                   0.005096  ...                   -0.003390
+Vehicle Type_Go Mini                0.000083  ...                   -0.005017
+Vehicle Type_Go Sedan              -0.006474  ...                   -0.003362
+Vehicle Type_Premier Sedan         -0.001951  ...                    0.001627
+Vehicle Type_Uber XL                0.005764  ...                    0.003282
+Vehicle Type_eBike                  0.002181  ...                    0.003900
+Payment Method_Credit Card         -0.008190  ...                   -0.080682
+Payment Method_Debit Card          -0.010618  ...                   -0.071975
+Payment Method_UPI                  0.025115  ...                   -0.386305
+Payment Method_Uber Wallet         -0.008343  ...                    1.000000
+
+[20 rows x 20 columns]
+
+=== Top |correlation| pairs ===
+Booking Status_Cancelled by Driver  Booking Status_Completed              0.598458
+Booking Status_Completed            Booking Status_Cancelled by Driver    0.598458
+                                    Payment Method_UPI                    0.465243
+Payment Method_UPI                  Booking Status_Completed              0.465243
+Payment Method_Uber Wallet          Payment Method_UPI                    0.386305
+Payment Method_UPI                  Payment Method_Uber Wallet            0.386305
+Booking Status_Cancelled by Driver  Payment Method_UPI                    0.362095
+Payment Method_UPI                  Booking Status_Cancelled by Driver    0.362095
+Booking Status_No Driver Found      Booking Status_Completed              0.350438
+Booking Status_Completed            Booking Status_No Driver Found        0.350438
+Payment Method_UPI                  Payment Method_Credit Card            0.349671
+Payment Method_Credit Card          Payment Method_UPI                    0.349671
+Booking Status_Incomplete           Booking Status_Completed              0.322712
+Booking Status_Completed            Booking Status_Incomplete             0.322712
+Payment Method_Debit Card           Payment Method_UPI                    0.311936
+dtype: float64

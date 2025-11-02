@@ -1,0 +1,17 @@
+feature,importance
+Avg CTAT,0.16398561163721426
+Ride Distance,0.13211620025472262
+Customer Rating,0.03642319916864438
+Avg VTAT,0.015604564030150958
+Driver Ratings,0.014353172505092293
+Booking Value,8.221092767444205e-05
+Payment Method_UPI,2.0552731918610513e-05
+Vehicle Type_Bike,0.0
+Vehicle Type_Go Mini,0.0
+Vehicle Type_Go Sedan,0.0
+Vehicle Type_Uber XL,0.0
+Vehicle Type_Premier Sedan,0.0
+Vehicle Type_eBike,0.0
+Payment Method_Credit Card,0.0
+Payment Method_Debit Card,0.0
+Payment Method_Uber Wallet,0.0

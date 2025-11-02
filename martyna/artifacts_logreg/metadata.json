@@ -1,0 +1,24 @@
+{
+  "model_name": "LogisticRegression",
+  "training_date_utc": "2025-11-02T17:56:45Z",
+  "feature_columns": [
+    "Avg VTAT",
+    "Avg CTAT",
+    "Booking Value",
+    "Ride Distance",
+    "Driver Ratings",
+    "Customer Rating",
+    "Vehicle Type_Bike",
+    "Vehicle Type_Go Mini",
+    "Vehicle Type_Go Sedan",
+    "Vehicle Type_Premier Sedan",
+    "Vehicle Type_Uber XL",
+    "Vehicle Type_eBike",
+    "Payment Method_Credit Card",
+    "Payment Method_Debit Card",
+    "Payment Method_UPI",
+    "Payment Method_Uber Wallet"
+  ],
+  "numeric_only": true,
+  "artifacts_dir": "artifacts_logreg"
+}

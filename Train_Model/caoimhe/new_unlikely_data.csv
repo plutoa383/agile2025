@@ -1,6 +1,0 @@
-Ride Distance,Customer Rating,Time,Avg CTAT,Booking Value,Payment Method_UPI,Driver Ratings,Avg VTAT,Payment Method_Uber Wallet,Payment Method_Credit Card,Date,Pickup Location,Drop Location,Payment Method_Debit Card,Vehicle Type_Go Sedan,Vehicle Type_Bike,Vehicle Type_Go Mini,Vehicle Type_Premier Sedan,Vehicle Type_eBike,Vehicle Type_Uber XL
-100,1.0,00:30,30,50,0,1.0,25,0,0,2025-11-02,Rural Area,Remote Zone,0,0,0,0,0,0,0
-75,1.2,23:45,25,80,0,2.0,20,0,0,2025-11-02,Outskirts,Distant Suburb,0,0,0,0,0,0,0
-60,1.5,22:30,35,40,0,1.5,30,0,0,2025-11-02,Industrial Park,Warehouse District,0,0,0,0,0,0,0
-90,1.0,01:15,40,60,0,2.5,35,0,0,2025-11-02,Village Edge,Hilltop,0,0,0,0,0,0,0
-110,1.3,03:00,28,70,0,1.8,27,0,0,2025-11-02,Countryside,Remote Terminal,0,0,0,0,0,0,0

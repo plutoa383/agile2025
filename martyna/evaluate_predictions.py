@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Evaluate how accurate the predictions were on new data (if you know the true outcomes).
+Evaluate how accurate the predictions were on new data.
 """
 
 import argparse
@@ -37,3 +37,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

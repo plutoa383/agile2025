@@ -109,7 +109,7 @@ print("Confidence:", round(confidence * 100, 2), "%")
 # --------------------------
 # Save model, scaler, and features
 # --------------------------
-model_filename = "modelUberML.pk1"
+model_filename = "modelUberML.pkl"
 with open(model_filename, 'wb') as file:
     pickle.dump({
         'model': model,

@@ -269,7 +269,11 @@ def main():
         )
         print("\n=== Top Feature Importances (aggregated) ===")
         print(feat_imp.head(25).to_string(index=False))
-        feat_imp.to_csv("rf_feature_importances.csv", index=False)
+        import os
+os.makedirs("caoimhe/artifacts", exist_ok=True)
+feat_imp.to_csv("caoimhe/artifacts/rf_feature_importances.csv", index=False)
+print("Saved feature importances to caoimhe/artifacts/rf_feature_importances.csv")
+
         print("Saved feature importances to rf_feature_importances.csv")
     else:
         print("Warning: feature importances length mismatch; skipping CSV export.")
